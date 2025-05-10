@@ -6,7 +6,7 @@ function fn() {
   }
   var config = {
     goRestUrl: 'https://gorest.co.in',
-    token: '3d437e9bc88ddc39b5898a659f6f2a91e0095df8dadacadb01649110a6f36eed'
+    token: 'get_your_token_here', //from here https://gorest.co.in/my-account/access-tokens
   }
   if (env == 'dev') {
     config.goRestUrl = 'https://gorest.co.in';

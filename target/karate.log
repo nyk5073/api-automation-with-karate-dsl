@@ -277,3 +277,561 @@
 1 < alt-svc: h3=":443"; ma=86400
 {"message":"Resource not found"}
 
+15:00:56.629 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:00:58.094 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:00:58.381 [main] DEBUG com.intuit.karate - request:
+1 > GET https://conduit-api.bondaracademy.com/api/tags
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.3)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:00:58.971 [main] DEBUG com.intuit.karate - response time in milliseconds: 583
+1 < 200
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"7a-iQMuEJx+FJDJIloDRGo4mJAYC7o"
+1 < x-cloud-trace-context: f561080a75e6266d683e4d7fd44ec02f
+1 < date: Sat, 10 May 2025 08:00:59 GMT
+1 < server: Google Frontend
+1 < Content-Length: 122
+{"tags":["Test","YouTube","Bondar Academy","qa career","QA Skills","Value-Focused","Git","GitHub","Zoom","Live Sessions"]}
+
+15:00:59.086 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:00:59.095 [main] DEBUG com.intuit.karate - request:
+1 > GET https://conduit-api.bondaracademy.com/api/articles?limit=10&offset=0
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.3)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:00:59.471 [main] DEBUG com.intuit.karate - response time in milliseconds: 374
+1 < 200
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"43a5-M+voc3IPsfcC0b/7tSdI9IyOO3c"
+1 < x-cloud-trace-context: 141a1cceefb5499ade198dc8f2f74f8e
+1 < date: Sat, 10 May 2025 08:00:59 GMT
+1 < server: Google Frontend
+1 < Content-Length: 17317
+{"articles":[{"slug":"Discover-Bondar-Academy:-Your-Gateway-to-Efficient-Learning-1","title":"Discover Bondar Academy: Your Gateway to Efficient Learning","description":"Discover Bondar Academy's unique place in the educational landscape, where value-focused and efficient learning approaches converge. Our goal is to rapidly enhance your professional technical skills, boosting your market competitiveness and paving the way for higher-paying job opportunities. The speed of your progress is in your hands – you set the pace, and we provide the solutions and support to help you achieve your desired outcomes.","body":"Bondar Academy is a leading platform for efficient education, designed to boost your technical skills and advance your career in Quality Assurance (QA). Our program features a balanced mix of pre-recorded lectures and live sessions, allowing each student to study at their own pace and at a time that suits them. \n\nOur instructors are readily available on our Slack Workspace for support. Whether it's a quick question or a more complex issue requiring a Zoom call or Slack Huddle for screen sharing and live discussion, we're here to assist. Additionally, each class comes with a comprehensive question bank for self-assessment. Following each lecture, you have the opportunity to validate your understanding and readiness to progress to the next topic. You set the pace, and we provide the solutions to ensure you achieve your desired outcomes.\n\nSignUp today: https://www.bondaracademy.com","tagList":["qa career","Bondar Academy","QA Skills","Value-Focused"],"createdAt":"2024-01-27T21:52:32.682Z","updatedAt":"2024-01-27T21:52:32.682Z","favorited":false,"favoritesCount":641,"author":{"username":"Artem Bondar","bio":null,"image":"https://storage.googleapis.com/bondar-academy-visuals/Android.png","following":false}},{"slug":"The-value-of-pre-recorded-video-classes.-The-most-efficient-approach-to-tranfer-the-knowledge-1","title":"The value of pre-recorded video classes. The most efficient approach to tranfer the knowledge","description":"As educational practices evolve, video tutorials have emerged as the most efficient method for imparting theoretical knowledge. At Bondar Academy, we prioritize expertly structured and crafted video tutorials, ensuring you learn quickly and effectively and advance your skills.","body":"At Bondar Academy, we prioritize the value of your time and the efficiency of your education, distinguishing our approach from traditional colleges and live boot camps. Forget long, tedious live lectures on a fixed schedule. With us, you learn at your convenience and pace through optimized, structured video lectures. \n\nWe understand your goal is rapid knowledge acquisition. Our pre-recorded and well-organized lectures are designed precisely for this, ensuring no slowdowns from group dynamics or unrelated instructor anecdotes. \n\nDive straight into the subject matter, learn efficiently, and if questions arise, our immediate support on the Slack Workspace is there to streamline your learning process and swiftly remove any roadblocks.","tagList":["Bondar Academy","Video Lectures","Tutorials"],"createdAt":"2024-01-27T21:50:38.825Z","updatedAt":"2024-01-27T21:50:38.825Z","favorited":false,"favoritesCount":229,"author":{"username":"Artem Bondar","bio":null,"image":"https://storage.googleapis.com/bondar-academy-visuals/Android.png","following":false}},{"slug":"Mastering-Knowledge-with-Self-Assessments:-Identifying-and-Bridging-Learning-Gaps-in-Education-1","title":"Mastering Knowledge with Self-Assessments: Identifying and Bridging Learning Gaps in Education","description":"Self-assessment is an essential tool for gauging your understanding of lecture material. It answers critical questions: Have you grasped everything correctly? Is there anything you've missed? Are you prepared for the next lesson? These assessments ensure that you build a solid foundation of knowledge, confidently and efficiently paving the way for swift progress and effective learning outcomes.","body":"Traditional educational institutions, such as colleges and universities, commonly use tests and assessments to measure knowledge. This approach is effective for gauging student performance, but it's not without drawbacks. In these settings, assessments after every lecture aren't feasible due to the time required for teachers to evaluate them. This often leads to students having a false sense of understanding, believing they've comprehended all aspects of a lecture when, in reality, small but crucial details might be missed. These 'knowledge gaps' can accumulate, making more complex topics difficult to grasp later on.\n\nAt Bondar Academy, we address this challenge by implementing self-assessments after every lecture. These are designed to cover key questions that ensure a thorough understanding of the material, essential for comfort and success in future lectures. The number of questions varies, ranging from 3-4 to 15-20, depending on the lecture's significance and the volume of critical information. With these self-assessments, students receive immediate feedback, helping them determine if they've fully understood the lecture or if they need to revisit certain parts or seek assistance from our instructors in the Slack Workspace.","tagList":["Self-Assessment","Test","Exam"],"createdAt":"2024-01-27T21:48:36.340Z","updatedAt":"2024-01-27T21:48:36.340Z","favorited":false,"favoritesCount":56,"author":{"username":"Artem Bondar","bio":null,"image":"https://storage.googleapis.com/bondar-academy-visuals/Android.png","following":false}},{"slug":"Practical-Implementation-of-Skills:-Homework-Assignments-with-Instructor-Supervision-1","title":"Practical Implementation of Skills: Homework Assignments with Instructor Supervision","description":"Knowledge or skills not reinforced through practical exercises can quickly fade, often faster than anticipated. Homework, particularly in tasks like writing your own code, is crucial for honing these skills and cementing your understanding. At Bondar Academy, we ensure this vital step by assigning homework, rigorously evaluating the outcomes, and providing valuable feedback to guide your learning journey.","body":"Homework assignments are a fundamental component of the educational methodology at Bondar Academy, especially in technical education where learning a new programming language or framework is involved. The key to mastering these skills lies in writing code; the more you write, the better you become. However, merely replicating code seen in lectures leads to minimal learning. Often, this approach leaves students unclear about why their code works the way it does, as they focus on copying rather than understanding.\n\nA homework assignment at Bondar Academy starts with a blank page, challenging students to apply all their knowledge to write the first line of code. This process is more demanding than it appears. As you write each line, understanding and reasoning grow, making your code meaningful and comprehensible. You learn to write code that makes sense to you, enhancing your understanding.\n\nIn completing these assignments, you engage the 'thinking' part of your brain, transforming theoretical knowledge into practical skills. Recognizing the crucial role of homework in learning, our instructors at Bondar Academy are always available to assist with any challenges. Just reach out on Slack, and you'll receive the guidance and support needed for successful completion. At Bondar Academy, we fully understand the importance of homework assignments for the best outcome, so our instructors are always here to assist if you have any difficulties with completing them. Just ask in Slack and you'll be guided and assisted.","tagList":["Homework","Assignments","Practice","Coding"],"createdAt":"2024-01-27T21:46:09.512Z","updatedAt":"2024-01-27T21:46:09.512Z","favorited":false,"favoritesCount":30,"author":{"username":"Artem Bondar","bio":null,"image":"https://storage.googleapis.com/bondar-academy-visuals/Android.png","following":false}},{"slug":"Embracing-Daily-Git-Routines:-Real-Code-Reviews-on-GitHub-for-Effective-Coding-Practice.-1","title":"Embracing Daily Git Routines: Real Code Reviews on GitHub for Effective Coding Practice.","description":"Learning to code is just one part of a larger skill set; effectively managing and organizing code is equally crucial. At Bondar Academy, we integrate Git and platforms like GitHub into the core learning cycle. With us, using Git becomes a regular routine, where organizing code in branches, storing it in remote repositories, and collaborating with others through strategies like branching, merging, pull requests, and code reviews are standard practice.","body":"At Bondar Academy, mastering Git and GitHub is a fundamental step before delving into frameworks or programming languages. Effective code management, organization, and storage are crucial skills, and Git is the premier tool for this purpose. However, many learners initially find Git challenging due to its complexity and non-intuitive nature. To address this, our instructors have developed structured lectures on Git and GitHub, ensuring an efficient and thorough understanding of these essential tools. Git lessons are a mandatory prerequisite in every class. For a glimpse into our teaching approach, visit our YouTube channel: https://www.youtube.com/@BondarAcademy/playlists.\n\nIn our courses, all homework assignments are reviewed using GitHub pull requests, mirroring the workflow in real-world software development environments. Students submit their code to their working branch for review. Our instructors then provide feedback, suggesting modifications or adjustments for pull request approval. This iterative process is repeated throughout the course, establishing Git usage as a natural and routine part of your coding practice.","tagList":["YouTube","Git","GitHub"],"createdAt":"2024-01-27T21:42:31.491Z","updatedAt":"2024-01-27T21:42:31.491Z","favorited":false,"favoritesCount":26,"author":{"username":"Artem Bondar","bio":null,"image":"https://storage.googleapis.com/bondar-academy-visuals/Android.png","following":false}},{"slug":"Engaging-in-Live-Zoom-Sessions:-Interact-with-Instructors-and-Peers-Ask-Questions-in-Real-Time-1","title":"Engaging in Live Zoom Sessions: Interact with Instructors and Peers, Ask Questions in Real-Time","description":"In our increasingly online world, personal engagement remains a crucial element of effective learning. At Bondar Academy, we address this by hosting live Zoom sessions. These sessions provide a platform for live interaction between instructors and students, and among students themselves. Complementing our Slack channel, these live sessions offer an additional avenue for asking questions and engaging in meaningful discussions.","body":"In our increasingly online world, personal engagement remains a crucial element of effective learning. \nAt Bondar Academy, we address this by hosting live Zoom sessions. These sessions provide a platform for live interaction between instructors and students and among students themselves. Complementing our Slack channel, these live sessions offer an additional avenue for asking questions and engaging in meaningful discussions.","tagList":["Zoom","Live Sessions"],"createdAt":"2024-01-27T21:39:50.587Z","updatedAt":"2024-01-27T21:39:50.587Z","favorited":false,"favoritesCount":19,"author":{"username":"Artem Bondar","bio":null,"image":"https://storage.googleapis.com/bondar-academy-visuals/Android.png","following":false}},{"slug":"Utilizing-Slack-for-Continuous-Engagement:-Connect-with-Instructors-Share-Insights-and-Collaborate-1","title":"Utilizing Slack for Continuous Engagement: Connect with Instructors, Share Insights, and Collaborate","description":"Slack stands out as a widely-used messaging and collaboration platform, celebrated for its convenience and versatility. It enables simultaneous participation in multiple conversations, supports comments and emoji reactions, and allows users to share screenshots, videos, and code snippets. Its functionality extends to making calls in huddle sessions. Given these robust features, Bondar Academy has chosen Slack as our primary communication platform, facilitating seamless interaction and collaboration.","body":"As a new member of Bondar Academy, one of your initial steps should be registering for the Bondar Academy Slack Workspace. Upon registration at Bondar Academy, you'll receive a welcome email containing the URL to join. This Workspace serves as a central hub for communication with instructors and fellow students. Whether you have a question, need to share code, or want to upload screenshots, Slack makes it easy and efficient. Moreover, its compatibility with both desktop and mobile devices, by downloading and installing the app, ensures you can stay connected with your instructors and the community wherever you go.","tagList":["Slack","Community","Collaboration"],"createdAt":"2024-01-27T21:38:27.992Z","updatedAt":"2024-01-27T21:38:27.992Z","favorited":false,"favoritesCount":19,"author":{"username":"Artem Bondar","bio":null,"image":"https://storage.googleapis.com/bondar-academy-visuals/Android.png","following":false}},{"slug":"Stay-Ahead-with-Bondar-Academy:-Subscribe-to-Our-YouTube-channel-for-Latest-Tech-and-Education-Updates-1","title":"Stay Ahead with Bondar Academy: Subscribe to Our YouTube channel for Latest Tech and Education Updates","description":"Who doesn't appreciate high-quality free resources? YouTube serves as an ideal platform for sharing the latest news, updates, and a wealth of tips and tricks in test automation and technology. Keep abreast of these invaluable insights by subscribing to the @bondaracademy YouTube channel.","body":"Who doesn't appreciate high-quality free resources? \n\nYouTube serves as an ideal platform for sharing the latest news, updates, and a wealth of tips and tricks in test automation and technology. \n\nKeep abreast of these invaluable insights by subscribing to our YouTube channel: https://www.youtube.com/@bondaracademy","tagList":["YouTube"],"createdAt":"2024-01-27T21:36:32.360Z","updatedAt":"2024-01-27T21:36:32.360Z","favorited":false,"favoritesCount":17,"author":{"username":"Artem Bondar","bio":null,"image":"https://storage.googleapis.com/bondar-academy-visuals/Android.png","following":false}},{"slug":"Explore-the-Latest-in-Learning:-Bondar-Academy-Blog's-Educational-Insights-from-Our-Experts-1","title":"Explore the Latest in Learning: Bondar Academy Blog's Educational Insights from Our Experts","description":"Discover a treasure trove of knowledge on the Bondar Academy blog. Here, we share an array of tips, techniques, and valuable educational materials, all designed to keep you abreast of the latest technological trends and best practices. For easy access and continual learning, consider bookmarking our blog in your browser.","body":"On the Bondar Academy blog, we consistently provide insightful and pertinent updates on the latest in technology, test automation, and industry best practices. For your convenience, we recommend adding our blog to your browser's bookmarks. Our commitment to keeping you informed is reflected in our weekly posts, each focusing on a significant topic of the week.\n\nWe value your input and invite you to contribute to our ever-evolving content. If you have any suggestions or specific topics you'd like us to explore, please feel free to share your ideas in the Bondar Academy Slack workspace. \n\nDiscover our blog here: https://www.bondaracademy.com/blog\n","tagList":["Blog"],"createdAt":"2024-01-27T21:34:04.531Z","updatedAt":"2024-01-27T21:34:04.531Z","favorited":false,"favoritesCount":21,"author":{"username":"Artem Bondar","bio":null,"image":"https://storage.googleapis.com/bondar-academy-visuals/Android.png","following":false}},{"slug":"Take-the-Next-Step:-Join-Bondar-Academy-Today-and-Enroll-into-the-class-1","title":"Take the Next Step: Join Bondar Academy Today and Enroll into the class","description":"Are you prepared to transform your educational journey? Begin by signing up at Bondar Academy, then register for our Slack Workspace to start exploring. We offer a range of classes, with some being completely free and others featuring free previews of the initial sections. This allows you to experience our content and teaching approach firsthand, helping you make an informed decision before enrolling in a class.","body":"Are you prepared to transform your educational journey? \n\nBegin by signing up at Bondar Academy, then register for our Slack Workspace to start exploring. We offer a range of classes, with some being completely free and others featuring free previews of the initial sections. This allows you to experience our content and teaching approach firsthand, helping you make an informed decision before enrolling in a class.\n\nClick here to enroll: https://www.bondaracademy.com","tagList":["Enroll","Start for Free"],"createdAt":"2024-01-27T21:32:21.056Z","updatedAt":"2024-01-27T21:32:21.056Z","favorited":false,"favoritesCount":21,"author":{"username":"Artem Bondar","bio":null,"image":"https://storage.googleapis.com/bondar-academy-visuals/Android.png","following":false}}],"articlesCount":10}
+
+15:01:00.247 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:01:00.257 [main] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('classpath:helpers/CreateUser.feature')
+15:01:00.519 [main] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public/v2/users
+1 > Authorization: Bearer 3d437e9bc88ddc39b5898a659f6f2a91e0095df8dadacadb01649110a6f36eed
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 87
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"name":"julius.medhurst","email":"song57@gmail.com","gender":"male","status":"active"}
+
+15:01:01.179 [main] DEBUG com.intuit.karate - response time in milliseconds: 658
+1 < 201
+1 < Date: Sat, 10 May 2025 08:01:01 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 100
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < Etag: W/"78af2d1f4fb8c77e68b6bd28995fcaf8"
+1 < Feature-Policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+1 < Location: https://gorest.co.in/public/v2/users/7882732
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < Vary: Origin
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-Ratelimit-Limit: 90
+1 < X-Ratelimit-Remaining: 84
+1 < X-Ratelimit-Reset: 1
+1 < X-Request-Id: a1080021-1d13-462d-9b02-772faa73bed0
+1 < X-Runtime: 0.080877
+1 < X-Xss-Protection: 0
+1 < Cf-Cache-Status: DYNAMIC
+1 < Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+1 < Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=8ga2SESwbzpIblTp0WeyQI4Bk35S7z6cpydXOFlTnX6qK4vNJLsLacOfeXM68Em428yVhnUPBBMJ6Ce2Io7urNvWRIaQnnZJ41X%2FiTWchxSlwx3mBRzzMS9xwZgUDzg%3D"}]}
+1 < Server: cloudflare
+1 < CF-RAY: 93d7e7fd7b7ca24f-SIN
+1 < alt-svc: h3=":443"; ma=86400
+{"id":7882732,"name":"julius.medhurst","email":"song57@gmail.com","gender":"male","status":"active"}
+
+15:01:01.192 [main] INFO  com.intuit.karate - << lock released, cached callonce: read('classpath:helpers/CreateUser.feature')
+15:01:01.203 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/7882732
+1 > Authorization: Bearer 3d437e9bc88ddc39b5898a659f6f2a91e0095df8dadacadb01649110a6f36eed
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.3)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:01:01.686 [main] DEBUG com.intuit.karate - response time in milliseconds: 482
+1 < 200
+1 < Date: Sat, 10 May 2025 08:01:01 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < Etag: W/"78af2d1f4fb8c77e68b6bd28995fcaf8"
+1 < Feature-Policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < Vary: Origin
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-Ratelimit-Limit: 90
+1 < X-Ratelimit-Remaining: 89
+1 < X-Ratelimit-Reset: 2
+1 < X-Request-Id: 265a019a-60e5-492a-a30a-6704556ecbf0
+1 < X-Runtime: 0.041143
+1 < X-Xss-Protection: 0
+1 < Cf-Cache-Status: DYNAMIC
+1 < Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+1 < Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=ifwExmFoWZaVFfdIIXy03nCJnEBCkiLu8%2B%2FGBIpQbriAVCn8oMoXbQqeAnLQh7rktN7PHudHEMBaByECI4mhK%2BeB%2FRlWgQMLdDCiWIghdim0s2vNRKXFK0Z9mn%2BV8CY%3D"}]}
+1 < Server: cloudflare
+1 < CF-RAY: 93d7e8015e4cc26b-SIN
+1 < alt-svc: h3=":443"; ma=86400
+{"id":7882732,"name":"julius.medhurst","email":"song57@gmail.com","gender":"male","status":"active"}
+
+15:01:01.708 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:01:01.717 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://gorest.co.in/public/v2/users/7882732
+1 > Authorization: Bearer 3d437e9bc88ddc39b5898a659f6f2a91e0095df8dadacadb01649110a6f36eed
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 23
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"name":"Updated Name"}
+
+15:01:02.193 [main] DEBUG com.intuit.karate - response time in milliseconds: 475
+1 < 200
+1 < Date: Sat, 10 May 2025 08:01:02 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < Etag: W/"b51c0e92fc8fed339bc1c813663d4aad"
+1 < Feature-Policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < Vary: Origin
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-Ratelimit-Limit: 90
+1 < X-Ratelimit-Remaining: 88
+1 < X-Ratelimit-Reset: 2
+1 < X-Request-Id: b1c466f9-65ad-42c9-a40d-306ec8f9b8b6
+1 < X-Runtime: 0.053570
+1 < X-Xss-Protection: 0
+1 < Cf-Cache-Status: DYNAMIC
+1 < Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+1 < Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=vEyNilsKoXdIfIfYd7CfLZjYD%2FjoVH6kOtPJlMsV4DH9CzsbgfVXWAKT12RcZdGpwQtyhm0Y6fg2B3HNA8%2FQDN82yInxNcLfsIGPCUq5UEcz0Hdl3pE5%2FLwiVtF2UFA%3D"}]}
+1 < Server: cloudflare
+1 < CF-RAY: 93d7e8047e2a445e-SIN
+1 < alt-svc: h3=":443"; ma=86400
+{"name":"Updated Name","id":7882732,"email":"song57@gmail.com","gender":"male","status":"active"}
+
+15:01:02.211 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:01:02.217 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/7882732
+1 > Authorization: Bearer 3d437e9bc88ddc39b5898a659f6f2a91e0095df8dadacadb01649110a6f36eed
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.3)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:01:02.701 [main] DEBUG com.intuit.karate - response time in milliseconds: 481
+1 < 200
+1 < Date: Sat, 10 May 2025 08:01:02 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < Etag: W/"eaab90c45d6299a78b5fa89426fd7d45"
+1 < Feature-Policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < Vary: Origin
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-Ratelimit-Limit: 90
+1 < X-Ratelimit-Remaining: 87
+1 < X-Ratelimit-Reset: 3
+1 < X-Request-Id: 3c9ca907-6398-4ed5-a74b-ef9af7e81abe
+1 < X-Runtime: 0.042245
+1 < X-Xss-Protection: 0
+1 < Cf-Cache-Status: DYNAMIC
+1 < Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+1 < Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=XIFTFCw8bRcOSGLAjy%2BtGx6ba5EnqfMwEcIX0wV%2FAk%2BnYdoHQF3b9wAM%2Fd%2FE5JNSAKi1TTbezoNE5Locdh8aNu8FZLasYxrD8Ezh47q8g8OI00JFBrZopn2aHIaWJbg%3D"}]}
+1 < Server: cloudflare
+1 < CF-RAY: 93d7e8078e3bd98b-SIN
+1 < alt-svc: h3=":443"; ma=86400
+{"id":7882732,"name":"Updated Name","email":"song57@gmail.com","gender":"male","status":"active"}
+
+15:01:02.723 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:01:02.735 [main] DEBUG com.intuit.karate - request:
+1 > DELETE https://gorest.co.in/public/v2/users/7882732
+1 > Authorization: Bearer 3d437e9bc88ddc39b5898a659f6f2a91e0095df8dadacadb01649110a6f36eed
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.3)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:01:03.183 [main] DEBUG com.intuit.karate - response time in milliseconds: 445
+1 < 204
+1 < Date: Sat, 10 May 2025 08:01:03 GMT
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < Feature-Policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < Vary: Origin
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-Ratelimit-Limit: 90
+1 < X-Ratelimit-Remaining: 86
+1 < X-Ratelimit-Reset: 4
+1 < X-Request-Id: 84a5a382-1630-4424-b670-78f38e2d231a
+1 < X-Runtime: 0.058335
+1 < X-Xss-Protection: 0
+1 < Cf-Cache-Status: DYNAMIC
+1 < Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=8jE4XVaZ5vBchjADn277Dq4J8LZ5ZSGi4BnzqLDmIn4Kvb3CkE2faDQrO3hwk7ofx55NBeVJ%2B2BhtA%2FgTyI6UuntFgqg5s5qsIpxodJKAa5rI%2Bva6kKKESMeqhAno5g%3D"}]}
+1 < Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 93d7e80adcf34cdd-SIN
+1 < alt-svc: h3=":443"; ma=86400
+
+
+15:01:03.200 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:01:03.204 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/7882732
+1 > Authorization: Bearer 3d437e9bc88ddc39b5898a659f6f2a91e0095df8dadacadb01649110a6f36eed
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.3)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:01:03.611 [main] DEBUG com.intuit.karate - response time in milliseconds: 405
+1 < 404
+1 < Date: Sat, 10 May 2025 08:01:03 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < Feature-Policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < Vary: Origin
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-Ratelimit-Limit: 90
+1 < X-Ratelimit-Remaining: 85
+1 < X-Ratelimit-Reset: 4
+1 < X-Request-Id: 17ea602b-7206-462b-a5b5-d1d454b6aa6d
+1 < X-Runtime: 0.029539
+1 < X-Xss-Protection: 0
+1 < Cf-Cache-Status: DYNAMIC
+1 < Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+1 < Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=x%2BuIzSi611xRWdWzN9y62vIFccJ69Q50gr4ryg63RXIMa19RD9hknyoQxUtTnn%2BDKl63yUTH45AzbLb%2BYhIHp%2B9ZkNf269lzgUudXy0PJAWON3%2BC%2FZF6FGdijvv3lDw%3D"}]}
+1 < Server: cloudflare
+1 < CF-RAY: 93d7e80dbfd32a90-SIN
+1 < alt-svc: h3=":443"; ma=86400
+{"message":"Resource not found"}
+
+15:01:30.912 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:01:32.179 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:01:32.422 [main] DEBUG com.intuit.karate - request:
+1 > GET https://conduit-api.bondaracademy.com/api/tags
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.3)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:01:33.027 [main] DEBUG com.intuit.karate - response time in milliseconds: 596
+1 < 200
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"7a-iQMuEJx+FJDJIloDRGo4mJAYC7o"
+1 < x-cloud-trace-context: b29152119516815969384f80e87d34af;o=1
+1 < date: Sat, 10 May 2025 08:01:33 GMT
+1 < server: Google Frontend
+1 < Content-Length: 122
+{"tags":["Test","YouTube","Bondar Academy","qa career","QA Skills","Value-Focused","Git","GitHub","Zoom","Live Sessions"]}
+
+15:01:33.121 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:01:33.131 [main] DEBUG com.intuit.karate - request:
+1 > GET https://conduit-api.bondaracademy.com/api/articles?limit=10&offset=0
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.3)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:01:33.570 [main] DEBUG com.intuit.karate - response time in milliseconds: 436
+1 < 200
+1 < x-powered-by: Express
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"43a5-M+voc3IPsfcC0b/7tSdI9IyOO3c"
+1 < x-cloud-trace-context: abf23294c00e36047fdc60a66d4aa530
+1 < date: Sat, 10 May 2025 08:01:33 GMT
+1 < server: Google Frontend
+1 < Content-Length: 17317
+{"articles":[{"slug":"Discover-Bondar-Academy:-Your-Gateway-to-Efficient-Learning-1","title":"Discover Bondar Academy: Your Gateway to Efficient Learning","description":"Discover Bondar Academy's unique place in the educational landscape, where value-focused and efficient learning approaches converge. Our goal is to rapidly enhance your professional technical skills, boosting your market competitiveness and paving the way for higher-paying job opportunities. The speed of your progress is in your hands – you set the pace, and we provide the solutions and support to help you achieve your desired outcomes.","body":"Bondar Academy is a leading platform for efficient education, designed to boost your technical skills and advance your career in Quality Assurance (QA). Our program features a balanced mix of pre-recorded lectures and live sessions, allowing each student to study at their own pace and at a time that suits them. \n\nOur instructors are readily available on our Slack Workspace for support. Whether it's a quick question or a more complex issue requiring a Zoom call or Slack Huddle for screen sharing and live discussion, we're here to assist. Additionally, each class comes with a comprehensive question bank for self-assessment. Following each lecture, you have the opportunity to validate your understanding and readiness to progress to the next topic. You set the pace, and we provide the solutions to ensure you achieve your desired outcomes.\n\nSignUp today: https://www.bondaracademy.com","tagList":["qa career","Bondar Academy","QA Skills","Value-Focused"],"createdAt":"2024-01-27T21:52:32.682Z","updatedAt":"2024-01-27T21:52:32.682Z","favorited":false,"favoritesCount":641,"author":{"username":"Artem Bondar","bio":null,"image":"https://storage.googleapis.com/bondar-academy-visuals/Android.png","following":false}},{"slug":"The-value-of-pre-recorded-video-classes.-The-most-efficient-approach-to-tranfer-the-knowledge-1","title":"The value of pre-recorded video classes. The most efficient approach to tranfer the knowledge","description":"As educational practices evolve, video tutorials have emerged as the most efficient method for imparting theoretical knowledge. At Bondar Academy, we prioritize expertly structured and crafted video tutorials, ensuring you learn quickly and effectively and advance your skills.","body":"At Bondar Academy, we prioritize the value of your time and the efficiency of your education, distinguishing our approach from traditional colleges and live boot camps. Forget long, tedious live lectures on a fixed schedule. With us, you learn at your convenience and pace through optimized, structured video lectures. \n\nWe understand your goal is rapid knowledge acquisition. Our pre-recorded and well-organized lectures are designed precisely for this, ensuring no slowdowns from group dynamics or unrelated instructor anecdotes. \n\nDive straight into the subject matter, learn efficiently, and if questions arise, our immediate support on the Slack Workspace is there to streamline your learning process and swiftly remove any roadblocks.","tagList":["Bondar Academy","Video Lectures","Tutorials"],"createdAt":"2024-01-27T21:50:38.825Z","updatedAt":"2024-01-27T21:50:38.825Z","favorited":false,"favoritesCount":229,"author":{"username":"Artem Bondar","bio":null,"image":"https://storage.googleapis.com/bondar-academy-visuals/Android.png","following":false}},{"slug":"Mastering-Knowledge-with-Self-Assessments:-Identifying-and-Bridging-Learning-Gaps-in-Education-1","title":"Mastering Knowledge with Self-Assessments: Identifying and Bridging Learning Gaps in Education","description":"Self-assessment is an essential tool for gauging your understanding of lecture material. It answers critical questions: Have you grasped everything correctly? Is there anything you've missed? Are you prepared for the next lesson? These assessments ensure that you build a solid foundation of knowledge, confidently and efficiently paving the way for swift progress and effective learning outcomes.","body":"Traditional educational institutions, such as colleges and universities, commonly use tests and assessments to measure knowledge. This approach is effective for gauging student performance, but it's not without drawbacks. In these settings, assessments after every lecture aren't feasible due to the time required for teachers to evaluate them. This often leads to students having a false sense of understanding, believing they've comprehended all aspects of a lecture when, in reality, small but crucial details might be missed. These 'knowledge gaps' can accumulate, making more complex topics difficult to grasp later on.\n\nAt Bondar Academy, we address this challenge by implementing self-assessments after every lecture. These are designed to cover key questions that ensure a thorough understanding of the material, essential for comfort and success in future lectures. The number of questions varies, ranging from 3-4 to 15-20, depending on the lecture's significance and the volume of critical information. With these self-assessments, students receive immediate feedback, helping them determine if they've fully understood the lecture or if they need to revisit certain parts or seek assistance from our instructors in the Slack Workspace.","tagList":["Self-Assessment","Test","Exam"],"createdAt":"2024-01-27T21:48:36.340Z","updatedAt":"2024-01-27T21:48:36.340Z","favorited":false,"favoritesCount":56,"author":{"username":"Artem Bondar","bio":null,"image":"https://storage.googleapis.com/bondar-academy-visuals/Android.png","following":false}},{"slug":"Practical-Implementation-of-Skills:-Homework-Assignments-with-Instructor-Supervision-1","title":"Practical Implementation of Skills: Homework Assignments with Instructor Supervision","description":"Knowledge or skills not reinforced through practical exercises can quickly fade, often faster than anticipated. Homework, particularly in tasks like writing your own code, is crucial for honing these skills and cementing your understanding. At Bondar Academy, we ensure this vital step by assigning homework, rigorously evaluating the outcomes, and providing valuable feedback to guide your learning journey.","body":"Homework assignments are a fundamental component of the educational methodology at Bondar Academy, especially in technical education where learning a new programming language or framework is involved. The key to mastering these skills lies in writing code; the more you write, the better you become. However, merely replicating code seen in lectures leads to minimal learning. Often, this approach leaves students unclear about why their code works the way it does, as they focus on copying rather than understanding.\n\nA homework assignment at Bondar Academy starts with a blank page, challenging students to apply all their knowledge to write the first line of code. This process is more demanding than it appears. As you write each line, understanding and reasoning grow, making your code meaningful and comprehensible. You learn to write code that makes sense to you, enhancing your understanding.\n\nIn completing these assignments, you engage the 'thinking' part of your brain, transforming theoretical knowledge into practical skills. Recognizing the crucial role of homework in learning, our instructors at Bondar Academy are always available to assist with any challenges. Just reach out on Slack, and you'll receive the guidance and support needed for successful completion. At Bondar Academy, we fully understand the importance of homework assignments for the best outcome, so our instructors are always here to assist if you have any difficulties with completing them. Just ask in Slack and you'll be guided and assisted.","tagList":["Homework","Assignments","Practice","Coding"],"createdAt":"2024-01-27T21:46:09.512Z","updatedAt":"2024-01-27T21:46:09.512Z","favorited":false,"favoritesCount":30,"author":{"username":"Artem Bondar","bio":null,"image":"https://storage.googleapis.com/bondar-academy-visuals/Android.png","following":false}},{"slug":"Embracing-Daily-Git-Routines:-Real-Code-Reviews-on-GitHub-for-Effective-Coding-Practice.-1","title":"Embracing Daily Git Routines: Real Code Reviews on GitHub for Effective Coding Practice.","description":"Learning to code is just one part of a larger skill set; effectively managing and organizing code is equally crucial. At Bondar Academy, we integrate Git and platforms like GitHub into the core learning cycle. With us, using Git becomes a regular routine, where organizing code in branches, storing it in remote repositories, and collaborating with others through strategies like branching, merging, pull requests, and code reviews are standard practice.","body":"At Bondar Academy, mastering Git and GitHub is a fundamental step before delving into frameworks or programming languages. Effective code management, organization, and storage are crucial skills, and Git is the premier tool for this purpose. However, many learners initially find Git challenging due to its complexity and non-intuitive nature. To address this, our instructors have developed structured lectures on Git and GitHub, ensuring an efficient and thorough understanding of these essential tools. Git lessons are a mandatory prerequisite in every class. For a glimpse into our teaching approach, visit our YouTube channel: https://www.youtube.com/@BondarAcademy/playlists.\n\nIn our courses, all homework assignments are reviewed using GitHub pull requests, mirroring the workflow in real-world software development environments. Students submit their code to their working branch for review. Our instructors then provide feedback, suggesting modifications or adjustments for pull request approval. This iterative process is repeated throughout the course, establishing Git usage as a natural and routine part of your coding practice.","tagList":["YouTube","Git","GitHub"],"createdAt":"2024-01-27T21:42:31.491Z","updatedAt":"2024-01-27T21:42:31.491Z","favorited":false,"favoritesCount":26,"author":{"username":"Artem Bondar","bio":null,"image":"https://storage.googleapis.com/bondar-academy-visuals/Android.png","following":false}},{"slug":"Engaging-in-Live-Zoom-Sessions:-Interact-with-Instructors-and-Peers-Ask-Questions-in-Real-Time-1","title":"Engaging in Live Zoom Sessions: Interact with Instructors and Peers, Ask Questions in Real-Time","description":"In our increasingly online world, personal engagement remains a crucial element of effective learning. At Bondar Academy, we address this by hosting live Zoom sessions. These sessions provide a platform for live interaction between instructors and students, and among students themselves. Complementing our Slack channel, these live sessions offer an additional avenue for asking questions and engaging in meaningful discussions.","body":"In our increasingly online world, personal engagement remains a crucial element of effective learning. \nAt Bondar Academy, we address this by hosting live Zoom sessions. These sessions provide a platform for live interaction between instructors and students and among students themselves. Complementing our Slack channel, these live sessions offer an additional avenue for asking questions and engaging in meaningful discussions.","tagList":["Zoom","Live Sessions"],"createdAt":"2024-01-27T21:39:50.587Z","updatedAt":"2024-01-27T21:39:50.587Z","favorited":false,"favoritesCount":19,"author":{"username":"Artem Bondar","bio":null,"image":"https://storage.googleapis.com/bondar-academy-visuals/Android.png","following":false}},{"slug":"Utilizing-Slack-for-Continuous-Engagement:-Connect-with-Instructors-Share-Insights-and-Collaborate-1","title":"Utilizing Slack for Continuous Engagement: Connect with Instructors, Share Insights, and Collaborate","description":"Slack stands out as a widely-used messaging and collaboration platform, celebrated for its convenience and versatility. It enables simultaneous participation in multiple conversations, supports comments and emoji reactions, and allows users to share screenshots, videos, and code snippets. Its functionality extends to making calls in huddle sessions. Given these robust features, Bondar Academy has chosen Slack as our primary communication platform, facilitating seamless interaction and collaboration.","body":"As a new member of Bondar Academy, one of your initial steps should be registering for the Bondar Academy Slack Workspace. Upon registration at Bondar Academy, you'll receive a welcome email containing the URL to join. This Workspace serves as a central hub for communication with instructors and fellow students. Whether you have a question, need to share code, or want to upload screenshots, Slack makes it easy and efficient. Moreover, its compatibility with both desktop and mobile devices, by downloading and installing the app, ensures you can stay connected with your instructors and the community wherever you go.","tagList":["Slack","Community","Collaboration"],"createdAt":"2024-01-27T21:38:27.992Z","updatedAt":"2024-01-27T21:38:27.992Z","favorited":false,"favoritesCount":19,"author":{"username":"Artem Bondar","bio":null,"image":"https://storage.googleapis.com/bondar-academy-visuals/Android.png","following":false}},{"slug":"Stay-Ahead-with-Bondar-Academy:-Subscribe-to-Our-YouTube-channel-for-Latest-Tech-and-Education-Updates-1","title":"Stay Ahead with Bondar Academy: Subscribe to Our YouTube channel for Latest Tech and Education Updates","description":"Who doesn't appreciate high-quality free resources? YouTube serves as an ideal platform for sharing the latest news, updates, and a wealth of tips and tricks in test automation and technology. Keep abreast of these invaluable insights by subscribing to the @bondaracademy YouTube channel.","body":"Who doesn't appreciate high-quality free resources? \n\nYouTube serves as an ideal platform for sharing the latest news, updates, and a wealth of tips and tricks in test automation and technology. \n\nKeep abreast of these invaluable insights by subscribing to our YouTube channel: https://www.youtube.com/@bondaracademy","tagList":["YouTube"],"createdAt":"2024-01-27T21:36:32.360Z","updatedAt":"2024-01-27T21:36:32.360Z","favorited":false,"favoritesCount":17,"author":{"username":"Artem Bondar","bio":null,"image":"https://storage.googleapis.com/bondar-academy-visuals/Android.png","following":false}},{"slug":"Explore-the-Latest-in-Learning:-Bondar-Academy-Blog's-Educational-Insights-from-Our-Experts-1","title":"Explore the Latest in Learning: Bondar Academy Blog's Educational Insights from Our Experts","description":"Discover a treasure trove of knowledge on the Bondar Academy blog. Here, we share an array of tips, techniques, and valuable educational materials, all designed to keep you abreast of the latest technological trends and best practices. For easy access and continual learning, consider bookmarking our blog in your browser.","body":"On the Bondar Academy blog, we consistently provide insightful and pertinent updates on the latest in technology, test automation, and industry best practices. For your convenience, we recommend adding our blog to your browser's bookmarks. Our commitment to keeping you informed is reflected in our weekly posts, each focusing on a significant topic of the week.\n\nWe value your input and invite you to contribute to our ever-evolving content. If you have any suggestions or specific topics you'd like us to explore, please feel free to share your ideas in the Bondar Academy Slack workspace. \n\nDiscover our blog here: https://www.bondaracademy.com/blog\n","tagList":["Blog"],"createdAt":"2024-01-27T21:34:04.531Z","updatedAt":"2024-01-27T21:34:04.531Z","favorited":false,"favoritesCount":21,"author":{"username":"Artem Bondar","bio":null,"image":"https://storage.googleapis.com/bondar-academy-visuals/Android.png","following":false}},{"slug":"Take-the-Next-Step:-Join-Bondar-Academy-Today-and-Enroll-into-the-class-1","title":"Take the Next Step: Join Bondar Academy Today and Enroll into the class","description":"Are you prepared to transform your educational journey? Begin by signing up at Bondar Academy, then register for our Slack Workspace to start exploring. We offer a range of classes, with some being completely free and others featuring free previews of the initial sections. This allows you to experience our content and teaching approach firsthand, helping you make an informed decision before enrolling in a class.","body":"Are you prepared to transform your educational journey? \n\nBegin by signing up at Bondar Academy, then register for our Slack Workspace to start exploring. We offer a range of classes, with some being completely free and others featuring free previews of the initial sections. This allows you to experience our content and teaching approach firsthand, helping you make an informed decision before enrolling in a class.\n\nClick here to enroll: https://www.bondaracademy.com","tagList":["Enroll","Start for Free"],"createdAt":"2024-01-27T21:32:21.056Z","updatedAt":"2024-01-27T21:32:21.056Z","favorited":false,"favoritesCount":21,"author":{"username":"Artem Bondar","bio":null,"image":"https://storage.googleapis.com/bondar-academy-visuals/Android.png","following":false}}],"articlesCount":10}
+
+15:01:34.228 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:01:34.238 [main] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('classpath:helpers/CreateUser.feature')
+15:01:34.464 [main] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public/v2/users
+1 > Authorization: Bearer 3d437e9bc88ddc39b5898a659f6f2a91e0095df8dadacadb01649110a6f36eed
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 88
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"name":"sandy.gibson","email":"humberto35@gmail.com","gender":"male","status":"active"}
+
+15:01:34.948 [main] DEBUG com.intuit.karate - response time in milliseconds: 483
+1 < 201
+1 < Date: Sat, 10 May 2025 08:01:35 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 101
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < Etag: W/"0c71f1b9a12780970e69e0da5991c6e3"
+1 < Feature-Policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+1 < Location: https://gorest.co.in/public/v2/users/7882734
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < Vary: Origin
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-Ratelimit-Limit: 90
+1 < X-Ratelimit-Remaining: 84
+1 < X-Ratelimit-Reset: 1
+1 < X-Request-Id: 7234c5fb-e223-4056-867d-4ade14080504
+1 < X-Runtime: 0.068169
+1 < X-Xss-Protection: 0
+1 < Cf-Cache-Status: DYNAMIC
+1 < Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+1 < Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=RHUmgSHZm0aafMURpcox%2BhgRqBxryrzjqLmqFtVhp4xOOdK2L2wXIZFAlHtECzr%2B3%2Bxr8ByjUEaAUs9DY9zWj5pYxbOjbC5t%2FrbUG8kDufIaNA4P80Snh0%2BizImjpuE%3D"}]}
+1 < Server: cloudflare
+1 < CF-RAY: 93d7e8d14b097235-SIN
+1 < alt-svc: h3=":443"; ma=86400
+{"id":7882734,"name":"sandy.gibson","email":"humberto35@gmail.com","gender":"male","status":"active"}
+
+15:01:34.960 [main] INFO  com.intuit.karate - << lock released, cached callonce: read('classpath:helpers/CreateUser.feature')
+15:01:34.967 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/7882734
+1 > Authorization: Bearer 3d437e9bc88ddc39b5898a659f6f2a91e0095df8dadacadb01649110a6f36eed
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.3)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:01:35.472 [main] DEBUG com.intuit.karate - response time in milliseconds: 503
+1 < 200
+1 < Date: Sat, 10 May 2025 08:01:35 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < Etag: W/"0c71f1b9a12780970e69e0da5991c6e3"
+1 < Feature-Policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < Vary: Origin
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-Ratelimit-Limit: 90
+1 < X-Ratelimit-Remaining: 89
+1 < X-Ratelimit-Reset: 2
+1 < X-Request-Id: 13511202-d21d-4a06-b08b-8c784be0b5df
+1 < X-Runtime: 0.062189
+1 < X-Xss-Protection: 0
+1 < Cf-Cache-Status: DYNAMIC
+1 < Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+1 < Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=OWXB4fdfz0pC3%2BExSLjVmEK8yb0%2FoAz58u%2FsN%2F1x66ARKIJpvKKuN89TS3pu6AjLtm5QnrUQPJanUg2%2BSG%2BWZGuyhmOc0Pur0Auw6oMFW%2F1Ut5cqBcihsLOCS9ErIOw%3D"}]}
+1 < Server: cloudflare
+1 < CF-RAY: 93d7e8d43abf89b8-SIN
+1 < alt-svc: h3=":443"; ma=86400
+{"id":7882734,"name":"sandy.gibson","email":"humberto35@gmail.com","gender":"male","status":"active"}
+
+15:01:35.485 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:01:35.494 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://gorest.co.in/public/v2/users/7882734
+1 > Authorization: Bearer 3d437e9bc88ddc39b5898a659f6f2a91e0095df8dadacadb01649110a6f36eed
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 23
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.3)
+1 > Accept-Encoding: gzip,deflate
+{"name":"Updated Name"}
+
+15:01:35.981 [main] DEBUG com.intuit.karate - response time in milliseconds: 485
+1 < 200
+1 < Date: Sat, 10 May 2025 08:01:36 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < Etag: W/"2c260ca386b2cf6b220ac8d0c06cc160"
+1 < Feature-Policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < Vary: Origin
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-Ratelimit-Limit: 90
+1 < X-Ratelimit-Remaining: 88
+1 < X-Ratelimit-Reset: 2
+1 < X-Request-Id: 4902be63-e742-4ea1-b948-ac35dcb81f30
+1 < X-Runtime: 0.053327
+1 < X-Xss-Protection: 0
+1 < Cf-Cache-Status: DYNAMIC
+1 < Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+1 < Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=ZnlL2GymaF0chB9ocdoWBbuZBE0U4gJvpzxQrYVGLik6rOEvrTWYauiP5xAd8Zb2wtGapTrNkYmnUUZDQ30KG3snoLsdjuF5FPrYOT2VLaIW02hjkm2RRg%2FNljaVvCM%3D"}]}
+1 < Server: cloudflare
+1 < CF-RAY: 93d7e8d78d8089b8-SIN
+1 < alt-svc: h3=":443"; ma=86400
+{"name":"Updated Name","id":7882734,"email":"humberto35@gmail.com","gender":"male","status":"active"}
+
+15:01:36.002 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:01:36.012 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/7882734
+1 > Authorization: Bearer 3d437e9bc88ddc39b5898a659f6f2a91e0095df8dadacadb01649110a6f36eed
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.3)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:01:36.498 [main] DEBUG com.intuit.karate - response time in milliseconds: 484
+1 < 200
+1 < Date: Sat, 10 May 2025 08:01:36 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < Etag: W/"5198955c49aaee6765bd3160a98d6aae"
+1 < Feature-Policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < Vary: Origin
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-Ratelimit-Limit: 90
+1 < X-Ratelimit-Remaining: 87
+1 < X-Ratelimit-Reset: 3
+1 < X-Request-Id: db95b212-0483-4fad-bd1b-01467d4ed7a0
+1 < X-Runtime: 0.044143
+1 < X-Xss-Protection: 0
+1 < Cf-Cache-Status: DYNAMIC
+1 < Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+1 < Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=ZspKMQaEiFaJEDww94AhlwDaU5wQtSmMXAHVX9DdSONalTBU8c03Zw2Pj4yA5dqrtVPU7ScuQoak5LmL6IpTUb0mrPX%2FNAMx1jprYaGQaqLw%2Fv7lG6bszvvkTWwG3SQ%3D"}]}
+1 < Server: cloudflare
+1 < CF-RAY: 93d7e8dace1672da-SIN
+1 < alt-svc: h3=":443"; ma=86400
+{"id":7882734,"name":"Updated Name","email":"humberto35@gmail.com","gender":"male","status":"active"}
+
+15:01:36.514 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:01:36.520 [main] DEBUG com.intuit.karate - request:
+1 > DELETE https://gorest.co.in/public/v2/users/7882734
+1 > Authorization: Bearer 3d437e9bc88ddc39b5898a659f6f2a91e0095df8dadacadb01649110a6f36eed
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.3)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:01:37.009 [main] DEBUG com.intuit.karate - response time in milliseconds: 488
+1 < 204
+1 < Date: Sat, 10 May 2025 08:01:37 GMT
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < Feature-Policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < Vary: Origin
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-Ratelimit-Limit: 90
+1 < X-Ratelimit-Remaining: 86
+1 < X-Ratelimit-Reset: 4
+1 < X-Request-Id: 8151db5f-b8e6-49d5-a212-3522118bfdcb
+1 < X-Runtime: 0.058018
+1 < X-Xss-Protection: 0
+1 < Cf-Cache-Status: DYNAMIC
+1 < Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=rKq1BI7CRa0WeJsehj0hO6ssLYZuw2gF38BoGtgs4FWUWZh9w6IEQ3TYKqLVcru3C1rgW4gs3Lgjou%2Bnwch9gO5uEi2fNy0ChnWrAp1O9fWzMC0zDHuzti6G6lUxXGc%3D"}]}
+1 < Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 93d7e8ddfa64c261-SIN
+1 < alt-svc: h3=":443"; ma=86400
+
+
+15:01:37.022 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:01:37.028 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v2/users/7882734
+1 > Authorization: Bearer 3d437e9bc88ddc39b5898a659f6f2a91e0095df8dadacadb01649110a6f36eed
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.3)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:01:37.488 [main] DEBUG com.intuit.karate - response time in milliseconds: 457
+1 < 404
+1 < Date: Sat, 10 May 2025 08:01:37 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < Feature-Policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < Vary: Origin
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-Ratelimit-Limit: 90
+1 < X-Ratelimit-Remaining: 85
+1 < X-Ratelimit-Reset: 4
+1 < X-Request-Id: b90d95b8-a418-465e-b01b-d1c4bbae4dbb
+1 < X-Runtime: 0.030622
+1 < X-Xss-Protection: 0
+1 < Cf-Cache-Status: DYNAMIC
+1 < Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+1 < Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=IJYVButffvL88GLP3ZXwkJZiSnFUKGmLMdlZXaZmWSJpkKMqXQqAZAi1AMO3Zbln8eofqA4h4Ilr8IMD1H0DY%2Fd6qqp8vXbyDjzJq9PKSe%2F%2FS6ESbYrFqoWaNLwgMqs%3D"}]}
+1 < Server: cloudflare
+1 < CF-RAY: 93d7e8e108c4799c-BKK
+1 < alt-svc: h3=":443"; ma=86400
+{"message":"Resource not found"}
+
